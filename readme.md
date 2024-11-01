@@ -3,6 +3,6 @@
 A sleek, responsive Weather App that fetches real-time weather data using the OpenWeatherMap API! With this app
 
 Languages Used 
- -html
- -css
- -js
+ - html
+ - css
+ - js
