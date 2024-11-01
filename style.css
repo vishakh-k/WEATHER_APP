@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    font-family: 'Acme', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #F5EDED;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width:300px;
+    background-color: #7FA1C3;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.container h1{
+    margin-bottom: 10px;
+}
+.container input{
+    padding: 5px 10px;
+    border: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+.container button{
+    padding: 5px 8px;
+    border: none;
+    background-color: #E2DAD6;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.container button:hover{
+    background-color: #e0baa6;
+}
+
+#error-message{
+    color: red;
+}
+.hidden{
+    display: none;
+}
